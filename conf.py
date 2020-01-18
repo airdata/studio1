@@ -13,7 +13,7 @@ master_doc = 'index'
 project = 'STUDIO 1'
 version = u'SOFIA'
 release = 'latest'
-copyright = '2017, STUDIO1-SOFIA'
+copyright = '2020, STUDIO1-SOFIA'
 author = 'Rumen Lishkov'
 
 # templates_path = ['_templates']
