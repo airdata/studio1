@@ -12,3 +12,7 @@ pip install sphinx sphinx_rtd_theme
 ```
 make html
 ```
+### HTML Output
+When you get `build succeeded.` from `make html` then you can find new directory named `build/html`. 
+
+Inside you can find `.html` files.
