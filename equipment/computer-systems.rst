@@ -1,17 +1,332 @@
 Компютърни системи
 ##################
 
-MAC
-===
-DAW
----
-VST
----
+Операционна Система
+====================
+ Model Name:	iMac
+  - Model Identifier:	iMac17,1
+  - Processor Name:	Intel Core i7
+  - Processor Speed:	4 GHz
+  - Number of Processors:	1
+  - Total Number of Cores:	4
+  - Memory:	32 GB
+
+Софтуер
+-------
+* Logic Pro X (10.7.4)
+
+Плъгини-VST
+-----------
+# List
+  - AME2
+  - ARC
+  - ARP 2600 V2 Efx
+  - ARP 2600 V2
+  - AVOX ARTICULATOR
+  - AVOX ASPIRE
+  - AVOX CHOIR
+  - AVOX DUO
+  - AVOX MUTATOR
+  - AVOX PUNCH
+  - AVOX SYBIL
+  - AVOX THROAT
+  - AVOX WARM
+  - Addictive Drums
+  - AmpliTube 3
+  - Audiffex
+  - AudioPort
+  - Auto-Tune EFX
+  - Auto-Tune_Evo_VST
+  - BassStation
+  - BassStationStereo
+  - Battery 3
+  - CamelCrusher
+  - DC8C2
+  - DC8C2 3
+  - DX7 V
+  - EZdrummer
+  - EZkeys
+  - EZmix
+  - EZplayer
+  - Effectrix
+  - FinalPlug 5
+  - Focusrite
+  - Guitar Rig 5
+  - Harmony EFX
+  - Harmony Engine
+  - Ivory (OS X)
+  - Ivory
+  - Jup-8 V3
+  - Jupiter-8 V2
+  - KORG
+  - Keyscape
+  - Kontakt 5 16out
+  - Kontakt 5 8out
+  - Kontakt 5
+  - LinPlug
+  - Loopcloud
+  - MR Click
+  - MR Gate
+  - MR Hum
+  - MR Noise
+  - Master Restoration
+  - MasterVerb 5
+  - MidiMadness
+  - Mini V2 Efx
+  - Mini V2
+  - MultiDynamics 5
+  - NF VSTx64 Installer Folder
+  - Oberheim SEM V
+  - Omnisphere
+  - Overloud
+  - Panipulator
+  - Panorama 5
+  - PhilharmonikCE
+  - Presets
+  - Prophet V2
+  - Prophet V3
+  - RX 6 Connect
+  - RX 6 De-click
+  - RX 6 De-clip
+  - RX 6 De-crackle
+  - RX 6 De-ess
+  - RX 6 De-hum
+  - RX 6 De-plosive
+  - RX 6 De-reverb
+  - RX 6 Monitor
+  - RX 6 Mouth De-click
+  - RX 6 Spectral De-noise
+  - RX 6 Voice De-noise
+  - Rapture
+  - Reaktor 6
+  - Rob Papen
+  - Runciter
+  - SDRR
+  - SPL
+  - SPL Passeq Single
+  - SPL Passeq
+  - SampleTank2.x
+  - Scarlett Compressor
+  - Scarlett EQ
+  - Scarlett Gate
+  - Scarlett Reverb
+  - Softube
+  - Sonnox
+  - StylusRMX
+  - Superior Drummer
+  - Sylenth1
+  - TR5 Black 76
+  - TR5 Brickwall Limiter
+  - TR5 British Channel
+  - TR5 Bus Compressor
+  - TR5 CSR Hall
+  - TR5 CSR Inverse
+  - TR5 CSR Plate
+  - TR5 CSR Room
+  - TR5 Classic Clipper
+  - TR5 Classic Comp
+  - TR5 Classic EQ
+  - TR5 Classic Multi Band Limiter
+  - TR5 De Esser
+  - TR5 Dyna-Mu
+  - TR5 EQ-73
+  - TR5 EQ-81
+  - TR5 EQ-PA
+  - TR5 EQ-PB
+  - TR5 EQ-PG
+  - TR5 EQP-1A
+  - TR5 EQual
+  - TR5 Leslie
+  - TR5 Linear Phase EQ
+  - TR5 Master EQ-432
+  - TR5 Master Match
+  - TR5 Metering
+  - TR5 Mic Room
+  - TR5 One
+  - TR5 Opto Comp
+  - TR5 Precision Comp-Limiter
+  - TR5 Quad Compressor
+  - TR5 Quad Image
+  - TR5 Quad Limiter
+  - TR5 Saturator X
+  - TR5 Stealth Limiter
+  - TR5 Suite
+  - TR5 Tape Echo
+  - TR5 VC-670
+  - TR5 White 2A
+  - TR5 White Channel
+  - Trilian
+  - Tube Saturator
+  - Uhbik-A
+  - Uhbik-D
+  - Uhbik-F
+  - Uhbik-G
+  - Uhbik-P
+  - Uhbik-Q
+  - Uhbik-S
+  - Uhbik-T
+  - UltraChannel
+  - Vandal
+  - Vanguard
+  - Waldorf
+  - WaveShell-VST 9.7
+  - WaveShell1-VST 9.92
+  - relectro
+  - u-he
+  - wacvst
 
 
-Windows
-=======
-DAW
----
-VST
----
+Плъгини-AU
+----------
+
+# List
+  - AME2
+  - AMT Amp Leveling
+  - AMT Max Warm
+  - AMT Multi-Max
+  - ARP 2600 V2 Efx
+  - ARP 2600 V2
+  - AURoundTripAAC
+  - AVOX ARTICULATOR
+  - AVOX ASPIRE
+  - AVOX CHOIR
+  - AVOX DUO
+  - AVOX MUTATOR
+  - AVOX PUNCH
+  - AVOX SYBIL
+  - AVOX THROAT
+  - AVOX WARM
+  - Acoustic Feedback
+  - Active Equalizer
+  - Addictive Drums
+  - AiNetAudioUnit
+  - Albino 3
+  - AmpliTube 3
+  - Analog Lab
+  - AppleAES3Audio
+  - Attack
+  - Auto-Tune EFX
+  - Auto-Tune_Evo_AU
+  - BT Analog Chorus CH2S-3
+  - BT Analog Phaser APH2S-3
+  - BT Analog TrackBox
+  - BT BrickWall BW2S-3
+  - BT Compressor CP2S-3
+  - BT Compressor FA770-3
+  - BT DeEsser DS2S-3
+  - BT Equalizer BQ2S-3
+  - BT Equalizer BX2S-3
+  - BT Equalizer GEQ12-3
+  - BT Equalizer PEQ2B-3
+  - BT Equalizer PEQ322-3
+  - BT Equalizer PEQ5B-3
+  - BT ExpanderGate GX622-3
+  - BT Limiter LM2S-3
+  - BT Oilcan Echo TLE2S-3
+  - BT Stereo Imager ST2S-3
+  - BT Tempo Delay DL3D-3
+  - BT ValveDriver ADR2S-3
+  - Bass Amp Room
+  - BassStation
+  - BassStationStereo
+  - Battery 3
+  - BazzISM2
+  - BlueVerb DRV-2080
+  - British MCL-2269
+  - British NEQ-1972
+  - bx_XL
+  - bx_boom
+  - bx_cleansweep V2
+  - bx_control V2
+  - bx_digital V2 Mono
+  - bx_digital V2
+  - bx_dynEQ V2 Mono
+  - bx_dynEQ V2
+  - bx_hybrid
+  - bx_rockrack
+  - bx_shredspread
+  - bx_solo
+  - COSMOS
+  - CamelCrusher
+  - D-Pole
+  - DC8C2
+  - DC8C2sc
+  - DX7 V
+  - Diva
+  - E-3B Compressor
+  - E-3B Maximizer
+  - E-Channel
+  - E-Compressor
+  - E-Gate Expander
+  - E-Graphic EQ
+  - E-Maximizer
+  - E-RetroVox
+  - E-TubeTape Warmer
+  - ECHOES
+  - EQ 9063B AllTech
+  - EZdrummer
+  - EZkeys
+  - EZmix
+  - iZInsightAUHook
+  - iZOzone7AUHook
+  - iZOzone7DynamicEQAUHook
+  - iZOzone7DynamicsAUHook
+  - iZOzone7EqualizerAUHook
+  - iZOzone7ExciterAUHook
+  - iZOzone7ImagerAUHook
+  - iZOzone7MaximizerAUHook
+  - iZOzone7VintageCompressorAUHook
+  - iZOzone7VintageEQAUHook
+  - iZOzone7VintageLimiterAUHook
+  - iZOzone7VintageTapeAUHook
+  - iZRX6ConnectAUHook
+  - iZRX6DeEsserAUHook
+  - iZRX6DeclickerAUHook
+  - iZRX6DeclipperAUHook
+  - iZRX6DecracklerAUHook
+  - iZRX6DeplosiveAUHook
+  - iZRX6DereverbAUHook
+  - iZRX6HumRemovalAUHook
+  - iZRX6MonitorAUHook
+  - iZRX6MouthDeclickAUHook
+  - iZRX6SpectralDenoiserAUHook
+  - iZRX6VoiceDenoiserAUHook
+  - iZStutterEditAUHook
+  - TR5 Opto Comp
+  - TR5 Precision Comp-Limiter
+  - TR5 Quad Compressor
+  - TR5 Quad Image
+  - TR5 Quad Limiter
+  - TR5 Saturator X
+  - TR5 Stealth Limiter
+  - TR5 Suite
+  - TR5 Tape Echo
+  - TR5 VC-670
+  - TR5 White 2A
+  - TR5 White Channel
+  - TT Dynamic Range Meter
+  - Tonelux Tilt Live
+  - Tonelux Tilt
+  - Trident A-Range
+  - Trilian
+  - Tube Delay
+  - Tube Saturator
+  - Tube-Tech CL 1B
+  - Tube-Tech PE 1C
+  - spire
+  - Uhbik
+  - VC 160
+  - VC 2A
+  - VC 76
+  - Valley People Dyna-mite
+  - Vandal
+  - Vanguard
+  - Vintage Amp Room
+  - WaveShell-AU 9.7
+  - WaveShell1-AU 9.92
+  - WhiteAmpDemo
+  - Wormhole2 x64
+  - Wormhole2
+  - Z3TA+ 2
+  - Zebra2
+  - reFuse Lowender

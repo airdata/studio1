@@ -9,11 +9,11 @@ This section is intended to provide guidance for anyone wanting to implement too
 Тест
 
 +------------------+-------------+--------------+------------+
-| Record type      | Function(s) | Interface ID | Defined in |
+| Record type      | Function(s) |  ID          | Defined in |
 +==================+=============+==============+============+
-| Ethereum address | `addr`      | 0x3b3b57de   | EIP137_    |
+|  address         | `addr`      | 0x3b3b57de   | EIP137_    |
 +------------------+-------------+--------------+------------+
-| ENS Name         | `name`      | 0x691f3431   | EIP181_    |
+|  Name            | `name`      | 0x691f3431   | EIP181_    |
 +------------------+-------------+--------------+------------+
 
 
