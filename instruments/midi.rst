@@ -1,6 +1,6 @@
-****
-Миди
-****
+********
+Миди/MIDI
+********
 
 ..  image:: ../img/rumensuite500.png
    :height: 351px
@@ -28,34 +28,16 @@ Architecture
 
 ENS has two principal components: the registry, and resolvers.
 
-The ENS registry consists of a single central contract that maintains a list of all domains and subdomains, and stores three critical pieces of information about each:
-
- - The owner of the domain
- - The resolver for the domain
  - The time-to-live for all records under the domain
-
-The owner of a domain may be either an external account (a user) or a smart contract. A registrar is simply a smart contract that owns a domain, and issues subdomains of that domain to users that follow some set of rules defined in the contract.
 
 Owners of domains in the ENS registry may:
 
- - Set the resolver and TTL for the domain
- - Transfer ownership of the domain to another address
  - Change the ownership of subdomains
-
-The ENS registry is deliberately straightforward, and exists only to map from a name to the resolver responsible for it.
-
-Resolvers are responsible for the actual process of translating names into addresses. Any contract that implements the relevant standards may act as a resolver in ENS. General-purpose resolver implementations are offered for users whose requirements are straightforward, such as serving an infrequently changed address for a name.
-
-Each record type - Ethereum address, Swarm content hash, and so forth - defines a method or methods that a resolver must implement in order to provide records of that kind. New record types may be defined at any time via the EIP standardisation process, with no need to make changes to the ENS registry or to existing resolvers in order to support them.
 
 .. :
 
 TEST
 ====
-
-Names in ENS are represented as 32 byte hashes, rather than as plain text. This simplifies processing and storage, while permitting arbitrary length domain names, and preserves the privacy of names onchain. The algorithm used to translate domain names into hashes is called namehash. Namehash is defined in EIP137_.
-
-In order to preserve the hierarchal nature of names, namehash is defined recursively, making it possible to derive the hash of a subdomain from the hash of the parent domain and the name or hash of the subdomain.
 
 Terminology
 -----------
