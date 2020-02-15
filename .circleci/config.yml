@@ -1,34 +1,42 @@
 version: 2
-
 jobs:
-  python3:
+  # Define a "build_docs" job to be run with Circle
+  build_docs:
+    # This is the base environment that Circle will use
     docker:
-      - image: circleci/python:3.6.1
+      - image: circleci/python:3.6-stretch
     steps:
+      # Get our data and merge with upstream
+      - run: sudo apt-get update
       - checkout
+      # Update our path
+      - run: echo "export PATH=~/.local/bin:$PATH" >> $BASH_ENV
+      # Restore cached files to speed things up
+      - restore_cache:
+          keys:
+            - cache-pip
+      # Install the packages needed to build our documentation
+      # This will depend on your particular package!
+      - run: pip install --user sphinx_rtd_theme sphinx pytest memory_profiler recommonmark sphinx_copybutton jupyterhub
+      # Cache some files for a speedup in subsequent builds
+      - save_cache:
+          key: cache-pip
+          paths:
+            - ~/.cache/pip
+      # Build the docs
       - run:
+          name: Build docs to store
           command: |
-            pip install sphinx sphinx_rtd_theme
-            pip install .
             cd doc
             make html
+      # Tell Circle to store the documentation output in a folder that we can access later
       - store_artifacts:
-          path: build/html
-          destination: doc
-      - store_artifacts:
-          path: ~/log.txt
-      - persist_to_workspace:
-          root: build/html
-          paths: .
-      - attach_workspace:
-          at: build/html
-      - run: ls -ltrh build/html
-    filters:
-      branches:
-        ignore: gh-pages
+          path: doc/_build/html/
+          destination: html
 
+# Tell CircleCI to use this workflow when it builds the site
 workflows:
   version: 2
-  build-doc-and-deploy:
+  default:
     jobs:
-      - python3
+      - build_docs
