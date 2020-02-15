@@ -16,8 +16,7 @@ jobs:
           keys:
             - cache-pip
       # Install the packages needed to build our documentation
-      # This will depend on your particular package!
-      - run: pip install --user sphinx_rtd_theme sphinx sphinx_copybutton 
+      - run: pip install --user sphinx_rtd_theme sphinx
       # Cache some files for a speedup in subsequent builds
       - save_cache:
           key: cache-pip
