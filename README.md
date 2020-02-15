@@ -1,6 +1,7 @@
 # The Basement Documentation
 This is documentation is based on `Sphinx project` so you must install some prerequests to generate HTML files
 
+[![CircleCI](https://img.shields.io/circleci/project/github/airdata/studio1.svg)](https://circleci.com/gh/airdata/studio1) 
 ## Prerequests
 ### Sphinx and rtd_theme
 ```
